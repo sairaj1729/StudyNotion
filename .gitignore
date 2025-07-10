@@ -1,0 +1,27 @@
+# === Node.js Backend ===
+server/node_modules/
+server/.env
+server/*.log
+server/logs/
+
+# === React Frontend in Root ===
+node_modules/
+.env
+build/
+*.log
+
+# === Coverage and Testing ===
+coverage/
+.nyc_output/
+
+# === IDEs and OS Files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+*.tgz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
